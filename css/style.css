@@ -17,13 +17,6 @@ body{
   font-size: 50px;
 }
 
-.container{
-  max-width: 800px;
-  width: 100%;
-  display: block;
-  margin: auto;
-}
-
 .result{
   padding: 24px;
   text-align: center;
@@ -37,4 +30,9 @@ body{
 
 .d-none{
   display: none;
+}
+
+.row{
+  padding: 48px 20px;
+  background-color: darkgray;
 }
