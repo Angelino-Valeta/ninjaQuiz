@@ -4,7 +4,7 @@ body{
   margin: 0;
   font-family: Arial;
   background-color: #fff;
-  color: #333;
+  color: #444;
 }
 .header{
   padding: 60px;
@@ -21,6 +21,7 @@ body{
   padding: 24px;
   text-align: center;
   font-size: 30px;
+  border-bottom: 4px solid darkblue; 
 }
 .result span {
   color: darkblue;
@@ -34,7 +35,6 @@ body{
 
 .row{
   padding: 48px 124px;
-  background-color: #aaa;
   font-size: 18px;  
 }
 
@@ -64,7 +64,7 @@ body{
   border: 2px solid darkblue;
   background-color: #fff;
   color: darkblue;
-  padding: 14px 48px;
+  padding: 14px 58px;
   cursor: pointer;
   font-size: 16px;
   border-radius: 5px;
