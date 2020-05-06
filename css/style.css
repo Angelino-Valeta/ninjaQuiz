@@ -49,6 +49,8 @@ body{
 
 .question p{
   margin: 24px 0;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 .options{
