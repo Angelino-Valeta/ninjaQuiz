@@ -25,6 +25,7 @@ fromQuestion.addEventListener('submit', e =>{
   let timeOut = 0
   const counterSCore = setInterval(() =>{
     showScore.querySelector('span').textContent = `${timeOut}%`
+    
     if(timeOut === score){
       clearInterval(counterSCore)
     }else{
@@ -35,5 +36,3 @@ fromQuestion.addEventListener('submit', e =>{
 
 
 })
-
-console.log(pageYOffset)
