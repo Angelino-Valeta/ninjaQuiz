@@ -19,8 +19,21 @@ fromQuestion.addEventListener('submit', e =>{
   })
 
   //console.log(score)
+  scrollTo(0,0)  
   showScore.classList.remove('d-none')
-  showScore.querySelector('span').textContent = `${score}%`
+ 
+  let timeOut = 0
+  const counterSCore = setInterval(() =>{
+    showScore.querySelector('span').textContent = `${timeOut}%`
+    if(timeOut === score){
+      clearInterval(counterSCore)
+    }else{
+      timeOut++
+    }
+
+  }, 12)
 
 
 })
+
+console.log(pageYOffset)
