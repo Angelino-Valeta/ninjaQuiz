@@ -4,7 +4,7 @@ body{
   margin: 0;
   font-family: Arial;
   background-color: #fff;
-  color: #444;
+  color: #333;
 }
 .header{
   padding: 60px;
@@ -33,6 +33,13 @@ body{
 }
 
 .row{
-  padding: 48px 20px;
-  background-color: darkgray;
+  padding: 48px 124px;
+  background-color: #aaa;
+  font-size: 18px;  
+}
+
+.title-question{
+  color: darkblue;
+  font-size: 38px;
+  font-weight: 100;
 }
