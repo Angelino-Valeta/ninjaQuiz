@@ -54,3 +54,24 @@ body{
 .options{
   margin: 16px 0;
 }
+
+.btn-go-ninja{
+  text-align: center;
+  margin: 24px 0;
+}
+.btn-go-ninja input{
+  display: inline-block;
+  border: 2px solid darkblue;
+  background-color: #fff;
+  color: darkblue;
+  padding: 14px 48px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 19px 0 rgba(0, 0, 0, 0.19);
+  transition-duration: 0.3s; 
+}
+.btn-go-ninja input:hover{
+  background-color: darkblue;
+  color: #fff;
+}
