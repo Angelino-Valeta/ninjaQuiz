@@ -1,4 +1,5 @@
 const fromQuestion = document.querySelector('.questions')
+const showScore = document.querySelector('.result')
 const correctAnswer = ['B', 'A', 'B', 'A']
 
 //console.log(fromQuestion)
@@ -17,7 +18,9 @@ fromQuestion.addEventListener('submit', e =>{
     }
   })
 
-  console.log(score)
+  //console.log(score)
+  showScore.classList.remove('d-none')
+  showScore.querySelector('span').textContent = `${score}%`
 
 
 })
