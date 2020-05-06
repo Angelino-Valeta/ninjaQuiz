@@ -43,3 +43,14 @@ body{
   font-size: 38px;
   font-weight: 100;
 }
+.question{
+  margin: 55px 0;
+}
+
+.question p{
+  margin: 24px 0;
+}
+
+.options{
+  margin: 16px 0;
+}
